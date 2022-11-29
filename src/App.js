@@ -4,14 +4,24 @@ import Discover from './components/discover/discover';
 import Boxes from './components/boxes/boxes';
 import Footer from './components/footer/foter';
 
+import { BrowserRouter } from 'react-router-dom';
+import { Route } from 'react-router-dom';
+import { Routes } from 'react-router-dom';
+import Home from './components/home/home';
+
 function App() {
+
+  
+
   return (
     <div className="App">
-      <Navbar />
-      <HeroBanner />
-      <Discover />
-      <Boxes />
-      <Footer />
+      <BrowserRouter>
+      <Routes>
+        <Route path="/bepassenger" element={<Home />}>
+        </Route>
+      </Routes>
+    </BrowserRouter>
+      
     </div>
   );
 }
