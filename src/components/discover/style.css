@@ -1,0 +1,48 @@
+.discover {
+    position: relative;
+    /* background: url('./skyline.jpg') fixed; */
+    background: rgb(227,227,227);
+    background: radial-gradient(circle, rgba(227,227,227,1) 82%, rgba(163,163,163,1) 100%);
+    background-size: cover;
+    height: 100%;
+    padding-bottom: 150px;
+    top: -100px;
+}
+
+.bePassenger {
+    padding-top: 40px;
+    position: relative;
+    top: 30px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+h2 {
+    position: relative;
+    top: 40px;
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+    color: rgb(150, 150, 150);
+    font-weight: 200;
+}
+
+.learn {
+    display: flex;
+    position: relative;
+    top: 80px;
+    margin: 0 auto;
+    width: 200px;
+    color: white;
+    background-color: black;
+    padding: 15px 25px;
+    border-radius: 10px;
+    transition: 0.5s;
+    justify-content: center;
+}
+
+.learn:hover {
+    transition: 0.5s;
+    color: black;
+    background-color: white;
+}

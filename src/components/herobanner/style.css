@@ -1,0 +1,40 @@
+.banner {
+    position: relative;
+    top: -100px;
+    background: url('./town.jpg') 50% 50%;
+    background-size: cover;
+    height: 100%;
+    padding-bottom: 20%;
+}
+
+.tittle-h1 {
+    position: relative;
+    top: 80px;
+    color: white;
+    width: 50%;
+    font-size: 60px;
+    margin-left: 10%;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.reservation {
+    display: block;
+    position: relative;
+    top: 60px;
+    margin-left: 10%;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding: 15px 25px;
+    border-radius: 10px;
+    transition: 0.5s;
+    height: 100%;
+    width: 200px;
+    text-align: center;
+} 
+
+.reservation:hover {
+    color: white;
+    background: black;
+    transition: 0.5s;
+}

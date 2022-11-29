@@ -1,0 +1,98 @@
+.footer {
+    background-color: black;
+    width: 100%;
+    position: relative;
+    height: 200px;
+    top: -100px;
+    justify-content: center;
+}
+
+body {
+    background-color: black;
+}
+
+* {
+    color: white;
+}
+
+.right {
+    position: relative;
+    height: 100%;
+    color: white;
+    display: inline-flex;
+    justify-content: center;
+    float: right;
+    top: -10px;
+    margin-right: 20%;
+}
+
+.left {
+    height: 100%;
+    display: inline-flex;
+    margin-left: 20%;
+}
+
+.logo-footer {
+    position: relative;
+    height: 63px;
+    width: 210px;
+}
+
+.subFooter {
+    color: white;
+    position: relative;
+    font-weight: 100;
+}
+
+.icons-footer {
+    position: relative;
+    color: white;
+}
+
+.links {
+    display: inline-flex;
+    font-size: 30px;
+}
+
+a {
+    color: white;
+    transition: 0.5s;
+}
+
+a:hover {
+    color: rgb(209, 209, 209);
+    transition: 0.5s;
+}
+
+.trait {
+    width: 100%;
+    height: 1px;
+    background-color: rgb(134, 134, 134);
+}
+
+.liste1 {
+    position: relative;
+    left: -20%;
+}
+
+.copy {
+    text-align: center;
+    font-weight: 100;
+    position: relative;
+    top: 20px;
+}
+
+@media screen and (max-width: 1400px) {
+    .liste1 {
+        left: -10%;
+    }
+
+    .right {
+        margin-right: 10%;
+    }
+
+    .left {
+        margin-left: 10%;
+    }
+    
+}
