@@ -10,7 +10,7 @@ export default function HeroBanner() {
         <div>
             <div className="banner">
                 <h1 className='tittle-h1'>Share your trip and save money</h1>
-                <a className='reservation' href="/">Do a reservation</a>
+                <a className='reservation' href="/bepassenger">Do a reservation</a>
             </div>
         </div>
     );

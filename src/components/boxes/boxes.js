@@ -23,7 +23,7 @@ export default function Boxes() {
                             <p>Travel</p>
                         </div>
                         <p className='descr'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, dolorem.</p>
-                        <a href="#" className='a-learn-box'>Learn more <p className='icon-right'><AiOutlineRight /></p></a>
+                        <a href="/bepassenger" className='a-learn-box'>Learn more <p className='icon-right'><AiOutlineRight /></p></a>
                     </div>
                     <div className="boxes">
                         <p className='icon-p'>
@@ -33,7 +33,7 @@ export default function Boxes() {
                             <p>Security</p>
                         </div>
                         <p className='descr'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, dolorem.</p>
-                        <a href="#" className='a-learn-box'>Learn more <p className='icon-right'><AiOutlineRight /></p></a>
+                        <a href="/bepassenger" className='a-learn-box'>Learn more <p className='icon-right'><AiOutlineRight /></p></a>
                     </div>
                     <div className="boxes">
                         <p className='icon-p'>
@@ -43,7 +43,7 @@ export default function Boxes() {
                             <p>Accessibility</p>
                         </div>
                         <p className='descr'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, dolorem.</p>
-                        <a href="#" className='a-learn-box'>Learn more <p className='icon-right'><AiOutlineRight /></p></a>
+                        <a href="/bepassenger" className='a-learn-box'>Learn more <p className='icon-right'><AiOutlineRight /></p></a>
                     </div>
                 </div>
             </div>

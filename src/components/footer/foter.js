@@ -30,17 +30,17 @@ export default function Footer() {
             <div className="right">
                 <ul className='liste1'>
                     <h1 className='title1Footer'>Compagny</h1>
-                    <li><a href="#">About us</a></li>
-                    <li><a href="#">Our offering</a></li>
-                    <li><a href="#">Careers</a></li>
-                    <li><a href="#">Usage</a></li>
+                    <li><a href="/bepassenger">About us</a></li>
+                    <li><a href="/bepassenger">Our offering</a></li>
+                    <li><a href="/bepassenger">Careers</a></li>
+                    <li><a href="/bepassenger">Usage</a></li>
                 </ul>
 
                 <ul className='liste2'>
                     <h1 className='title1Footer'>Coming soon</h1>
-                    <li><a href="#">creation of beasenger mobile</a></li>
-                    <li><a href="#">map access</a></li>
-                    <li><a href="#">News Paper</a></li>
+                    <li><a href="/bepassenger">creation of beasenger mobile</a></li>
+                    <li><a href="/bepassenger">map access</a></li>
+                    <li><a href="/bepassenger">News Paper</a></li>
                 </ul>
             </div>
             <div className="trait"></div>

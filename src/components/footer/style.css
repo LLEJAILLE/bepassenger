@@ -11,10 +11,6 @@ body {
     background-color: black;
 }
 
-* {
-    color: white;
-}
-
 .right {
     position: relative;
     height: 100%;

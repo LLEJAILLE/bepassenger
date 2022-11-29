@@ -23,10 +23,10 @@ export default function Navbar() {
                 <div className='backComp' onClick={buttonQuitForm}>
                 <div className='contentComp'>
                     <ul>
-                        <li><a href="/" className='comp-lien'>About us</a></li>
-                        <li><a href="/" className='comp-lien'>Our offering</a></li>
-                        <li><a href="/" className='comp-lien'>Careers</a></li>
-                        <li><a href="/" className='comp-lien'>Usage</a></li>
+                        <li><a href="/bepassenger" className='comp-lien'>About us</a></li>
+                        <li><a href="/bepassenger" className='comp-lien'>Our offering</a></li>
+                        <li><a href="/bepassenger" className='comp-lien'>Careers</a></li>
+                        <li><a href="/bepassenger" className='comp-lien'>Usage</a></li>
                     </ul>
                     <div className='cross' onClick={buttonQuitForm}><FontAwesomeIcon icon={faTimes} /></div>
                 </div>
@@ -41,8 +41,8 @@ export default function Navbar() {
                 <img className='logo' src={logo} alt="logo" />
                 <ul className='liste'>
                     <li className='comp'> <a className={OpenComp ? 'lien active' : 'lien'} onClick={() => openCompagny()}>Compagny <p className='iconP'><FontAwesomeIcon icon={faChevronDown}/></p></a></li>
-                    <li> <a href="/" className='lien'>Security</a></li>
-                    <li> <a href="/" className='lien'>Help</a></li>
+                    <li> <a href="/bepassenger" className='lien'>Security</a></li>
+                    <li> <a href="/bepassenger" className='lien'>Help</a></li>
                 </ul>
 
 
